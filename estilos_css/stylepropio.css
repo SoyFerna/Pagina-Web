@@ -1,30 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .logo {
     width: 10%;
     position: absolute;
     top: 280px; left: 1100px;
     border: 5px solid rgb(255, 21, 21);
-   }
+}
 
 .title{
     position: absolute;
-    font-size: 65px; 
-    display: inline-block; 
+    font-size: 65px;
+    display: inline-block;
     margin-top: 0%;
 }
 
 .image01 {
     width: 100%;
     height: 270px;
-    float: left; 
+    float: left;
 }
 
 .titleevents {
-   text-align: center;
+    text-align: center;
     font-size: 55px;
     color: antiquewhite;
     background-color: black;
-   
+
 }
 
 .menu a {
@@ -32,7 +37,7 @@
     margin-bottom: 20px;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
 
 .information{
     position: relative;
@@ -43,4 +48,54 @@
 
 body{
     background-color: #b0a8fa;
+}
+
+.tabletitle{
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: -150px;
+    text-align: center;
+    font-size: 40px;
+}
+.tableheader {
+    padding: 5px 15px;
+/*     border: 2px solid #000; */
+    vertical-align: top;
+    text-align: center;
+}
+
+table, tr, td, th{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 250px;
+    margin-top: -250px;
+    border-spacing: 50px;
+}
+
+.infotable{
+    padding: 10px;
+    margin-block-end: 210px;
+    margin-left: 150px;
+    margin-block-start: 25px;
+    }
+
+.contact{
+    padding: 20px;
+    margin-left: 200px;
+    margin-block-end: 20px;
+}
+
+.titlerules{
+    text-align: center;
+    padding: 100px;
+   margin-top: -150px;
+}
+
+h5{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    padding: 20px;
 }
