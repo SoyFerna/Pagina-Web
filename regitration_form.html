@@ -6,6 +6,7 @@
     <title>Mighty Ducks Hockey League</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./estilos_css/stylepropio.css">
+    
 
 </head>
 
@@ -36,9 +37,10 @@
     </figure>
     <article class="iPlayer">
 
-        <form action="" method="get">
-            <label for="nombre">Player's First Name:</label>
-            <input type="text" id="nombre" name="nombre"><br>
+        <form class="iPlayer2" action="./show_data.html" method="get">
+
+            <label for="name">Player's First Name:</label>
+            <input type="text" id="name" name="nombre" value="Nombre"><br>
 
             <label for="lastName">Last Name:</label>
             <input type="text" name="lastName" id="lastName">
@@ -142,7 +144,7 @@
                 <label for="date2">Date:</label>
                 <input type="datetime-local" id="date2" name="date2"><br>
 
-                <button type="submit" value="enter" class="btn btn-primary btn-block">Send Information</button>
+                <button type="submit" value="enter">Send Information</button>
 
         </form>
     </article>
